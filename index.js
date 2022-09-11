@@ -1,4 +1,3 @@
-alert("If you get a sum below 21 after clicking the start game button, you can click the new card button and do it again. You can keep doing this as long as your sum doesn't go above 21. If you get a sum of 21, then 500 points will be added to your score. If you get a sum above 21, 200 points will be deducted from your score.")
 var name = window.prompt("Enter your name: ");
 let cards = []
 let sum = 0
@@ -11,7 +10,7 @@ let cardsEl = document.getElementById('cards-el')
 let sumEl = document.getElementById('sum-el')
 let playerEl = document.getElementById("player-el")
 let player = {
-    name: name,
+    name: nameChecker(),
     chips: totalChips
 }
 
@@ -76,4 +75,12 @@ function startGame(){
     cards = [firstCard, secondCard]
     sum = firstCard + secondCard
     renderGame()
+}
+
+function nameChecker (name) {
+    if (name != null) {
+        return name
+    } else {
+        return "Anonymous"
+    }
 }
