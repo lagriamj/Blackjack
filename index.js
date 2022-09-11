@@ -1,4 +1,4 @@
-alert("If you get a sum below 21 after clicking the start game button, you can click the new card button and do it again. You can keep doing this as long as your sum doesn't go above 21. If you get a sum of 21, then 500 points will be added to your score. If you don't get a sum of 21, 200 points will be deducted from your score.")
+alert("If you get a sum below 21 after clicking the start game button, you can click the new card button and do it again. You can keep doing this as long as your sum doesn't go above 21. If you get a sum of 21, then 500 points will be added to your score. If you get a sum above 21, 200 points will be deducted from your score.")
 var name = window.prompt("Enter your name: ");
 let cards = []
 let sum = 0
