@@ -75,3 +75,14 @@ button:hover {
     font-size: 16px;
     color: #f39c12;
 }
+
+@media screen and (max-width: 600px) {
+    body {
+        display: grid;
+        place-items: center;
+    }
+
+    button {
+        margin-top: 5px;
+    }
+}
