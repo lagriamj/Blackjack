@@ -55,3 +55,23 @@ button:hover {
     color: white;
     text-align: center;
 }
+
+.ins {
+    width: 200px;
+    border: 1px solid #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+.ins h1 {
+    margin: 1px;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+}
+
+.ins .m {
+    font-size: 16px;
+    color: #f39c12;
+}
